@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Globe, Shield, Users, BookOpen, CheckCircle, AlertTriangle, Clock, FileText } from "lucide-react"
+import { Globe, Shield, Users, BookOpen, CheckCircle, AlertTriangle, Clock, FileText, GraduationCap, Briefcase } from "lucide-react"
 
 export default function ServicesPage() {
   return (

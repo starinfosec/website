@@ -385,7 +385,7 @@ We use both tools and hands-on methods to check for common threats, including th
             </div>
             <div className="relative h-[400px]">
               <Image
-                src="/courses.jpeg"
+                src="/C5.GIF"
                 alt="Cybersecurity Courses"
                 fill
                 className="object-cover rounded-lg"
@@ -401,7 +401,7 @@ We use both tools and hands-on methods to check for common threats, including th
           <div className="grid gap-12 md:grid-cols-2 items-center">
             <div className="relative h-[400px] order-last md:order-first">
               <Image
-                src="/internship.jpeg"
+                src="/i.GIF"
                 alt="Cybersecurity Internship"
                 fill
                 className="object-cover rounded-lg"

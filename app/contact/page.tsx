@@ -37,7 +37,7 @@ export default function ContactPage() {
                   <Mail className="h-6 w-6 text-primary" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Email</h3>
-                <p className="text-gray-600">starinfosec0@gmail.com</p>
+                <p className="text-gray-600">contact@starinfosec.com</p>
                 <p className="text-gray-600"></p>
               </CardContent>
             </Card>
@@ -99,7 +99,7 @@ export default function ContactPage() {
               </div>
 
               <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                <Image src="/contact.jpg" alt="Contact StarInfoSec" fill className="object-cover" />
+                <Image src="/f.GIF" alt="Contact StarInfoSec" fill className="object-cover" />
               </div>
             </div>
 

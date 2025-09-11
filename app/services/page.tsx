@@ -306,7 +306,7 @@ We use both tools and hands-on methods to check for common threats, including th
             </div>
             <div className="relative h-[400px]">
               <Image
-                src="/consultant.png"
+                src="/g.GIF"
                 alt="Security Consulting"
                 fill
                 className="object-cover rounded-lg"

@@ -315,6 +315,141 @@ We use both tools and hands-on methods to check for common threats, including th
           </div>
         </div>
       </section>
+      {/* Courses Section */}
+      <section id="courses" className="py-16 bg-blue-50">
+        <div className="container">
+          <div className="grid gap-12 md:grid-cols-2 items-center">
+            <div>
+              <div className="inline-block bg-primary/10 text-primary font-medium rounded-full px-4 py-1 text-sm mb-4">
+                Learn & Grow
+              </div>
+              <h2 className="text-3xl font-bold mb-6">Cybersecurity Courses</h2>
+              <p className="text-lg text-gray-700 mb-4">
+                We provide industry-focused cybersecurity courses to help students, professionals, and business owners upskill 
+                themselves. Our courses are designed with real-world case studies, practical labs, and certifications.
+              </p>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+                <Card>
+                  <CardContent className="p-4">
+                    <div className="flex items-start gap-3">
+                      <GraduationCap className="h-6 w-6 text-primary mt-0.5" />
+                      <div>
+                        <h3 className="font-semibold mb-1">Beginner Cybersecurity</h3>
+                        <p className="text-sm text-gray-600">Learn fundamentals of online safety & security.</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardContent className="p-4">
+                    <div className="flex items-start gap-3">
+                      <Shield className="h-6 w-6 text-primary mt-0.5" />
+                      <div>
+                        <h3 className="font-semibold mb-1">Ethical Hacking</h3>
+                        <p className="text-sm text-gray-600">Hands-on labs covering real-world attack vectors.</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardContent className="p-4">
+                    <div className="flex items-start gap-3">
+                      <Globe className="h-6 w-6 text-primary mt-0.5" />
+                      <div>
+                        <h3 className="font-semibold mb-1">Web App Security</h3>
+                        <p className="text-sm text-gray-600">OWASP Top 10, API Security, Cloud Security.</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardContent className="p-4">
+                    <div className="flex items-start gap-3">
+                      <FileText className="h-6 w-6 text-primary mt-0.5" />
+                      <div>
+                        <h3 className="font-semibold mb-1">Certification Prep</h3>
+                        <p className="text-sm text-gray-600">Get ready for CEH, CompTIA Security+, CISSP.</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+
+              <Button asChild>
+                <Link href="/contact">Explore Courses</Link>
+              </Button>
+            </div>
+            <div className="relative h-[400px]">
+              <Image
+                src="/courses.jpeg"
+                alt="Cybersecurity Courses"
+                fill
+                className="object-cover rounded-lg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Internship Section */}
+      <section id="internship" className="py-16">
+        <div className="container">
+          <div className="grid gap-12 md:grid-cols-2 items-center">
+            <div className="relative h-[400px] order-last md:order-first">
+              <Image
+                src="/internship.jpeg"
+                alt="Cybersecurity Internship"
+                fill
+                className="object-cover rounded-lg"
+              />
+            </div>
+            <div>
+              <div className="inline-block bg-primary/10 text-primary font-medium rounded-full px-4 py-1 text-sm mb-4">
+                Career Growth
+              </div>
+              <h2 className="text-3xl font-bold mb-6">Cybersecurity Internship</h2>
+              <p className="text-lg text-gray-700 mb-4">
+                Join our hands-on cybersecurity internship program to gain real-world industry experience. 
+                Work with our team on live projects, threat analysis, and penetration testing assignments.
+              </p>
+
+              <div className="space-y-4 mb-6">
+                <div className="flex items-start gap-3 bg-white p-4 rounded-lg shadow-sm">
+                  <Briefcase className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                  <div>
+                    <h3 className="font-semibold mb-1">Practical Experience</h3>
+                    <p className="text-sm text-gray-600">Work on live cybersecurity projects with mentors.</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 bg-white p-4 rounded-lg shadow-sm">
+                  <Users className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                  <div>
+                    <h3 className="font-semibold mb-1">Team Collaboration</h3>
+                    <p className="text-sm text-gray-600">Learn to collaborate and solve real security challenges.</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 bg-white p-4 rounded-lg shadow-sm">
+                  <CheckCircle className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                  <div>
+                    <h3 className="font-semibold mb-1">Certification & Guidance</h3>
+                    <p className="text-sm text-gray-600">Receive internship certification & career guidance.</p>
+                  </div>
+                </div>
+              </div>
+
+              <Button asChild>
+                <Link href="/contact">Apply for Internship</Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Service Process */}
       <section className="py-16 bg-blue-50">

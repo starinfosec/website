@@ -35,7 +35,7 @@ export default function MissionPage() {
               </p>
             </div>
             <div className="relative h-[400px]">
-              <Image src="/mission.jpg" alt="StarInfoSec Mission" fill className="object-cover rounded-lg" />
+              <Image src="/mission.gif" alt="StarInfoSec Mission" fill className="object-cover rounded-lg" />
             </div>
           </div>
         </div>

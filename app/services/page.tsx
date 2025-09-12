@@ -2,7 +2,18 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Globe, Shield, Users, BookOpen, CheckCircle, AlertTriangle, Clock, FileText, GraduationCap, Briefcase } from "lucide-react"
+import {
+  Globe,
+  Shield,
+  Users,
+  BookOpen,
+  CheckCircle,
+  AlertTriangle,
+  Clock,
+  FileText,
+  GraduationCap,
+  Briefcase,
+} from "lucide-react"
 
 export default function ServicesPage() {
   return (
@@ -26,13 +37,9 @@ export default function ServicesPage() {
             <div>
               <h2 className="text-3xl font-bold mb-6">Custom Security Solutions</h2>
               <p className="text-lg text-gray-700 mb-4">
-                At StarInfoSec, we help small businesses and startups with affordable, easy-to-understand cybersecurity solutions. Our team offers services like penetration testing, staff training, and security advice to protect your digital assets. We also provide clear steps and ongoing support to help you stay secure.
-              </p>
-              <p className="text-lg text-gray-700 mb-4">
-               
-              </p>
-              <p className="text-lg text-gray-700">
-                
+                At StarInfoSec, we help small businesses and startups with affordable, easy-to-understand cybersecurity
+                solutions. Our team offers services like penetration testing, staff training, and security advice to
+                protect your digital assets. We also provide clear steps and ongoing support to help you stay secure.
               </p>
             </div>
             <div className="relative h-[400px]">
@@ -47,12 +54,7 @@ export default function ServicesPage() {
         <div className="container">
           <div className="grid gap-12 md:grid-cols-2 items-center">
             <div className="relative h-[400px] order-last md:order-first">
-              <Image
-                src="/web.png"
-                alt="Web Application Penetration Testing"
-                fill
-                className="object-cover rounded-lg"
-              />
+              <Image src="/web.png" alt="Web Application Penetration Testing" fill className="object-cover rounded-lg" />
             </div>
             <div>
               <div className="inline-block bg-primary/10 text-primary font-medium rounded-full px-4 py-1 text-sm mb-4">
@@ -60,38 +62,24 @@ export default function ServicesPage() {
               </div>
               <h2 className="text-3xl font-bold mb-6">Web Application Penetration Testing</h2>
               <p className="text-lg text-gray-700 mb-4">
-                Our web application penetration testing finds security issues in your web apps before hackers do.
-We use both tools and hands-on methods to check for common threats, including those in the OWASP Top 10 list.
-              </p>
-              <p className="text-lg text-gray-700 mb-6">
-                
+                Our web application penetration testing finds security issues in your web apps before hackers do. We use
+                both tools and hands-on methods to check for common threats, including those in the OWASP Top 10 list.
               </p>
 
               <div className="grid grid-cols-2 gap-4 mb-6">
-                <div className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
-                  <span className="text-gray-700">SQL Injection</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
-                  <span className="text-gray-700">XSS Vulnerabilities</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
-                  <span className="text-gray-700">CSRF Attacks</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
-                  <span className="text-gray-700">Authentication Flaws</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
-                  <span className="text-gray-700">Access Control Issues</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
-                  <span className="text-gray-700">Security Misconfigurations</span>
-                </div>
+                {[
+                  "SQL Injection",
+                  "XSS Vulnerabilities",
+                  "CSRF Attacks",
+                  "Authentication Flaws",
+                  "Access Control Issues",
+                  "Security Misconfigurations",
+                ].map((item) => (
+                  <div key={item} className="flex items-start gap-2">
+                    <CheckCircle className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
+                    <span className="text-gray-700">{item}</span>
+                  </div>
+                ))}
               </div>
 
               <Button asChild>
@@ -112,10 +100,8 @@ We use both tools and hands-on methods to check for common threats, including th
               </div>
               <h2 className="text-3xl font-bold mb-6">Cybersecurity Training</h2>
               <p className="text-lg text-gray-700 mb-4">
-                Our cybersecurity training programs are designed to equip your technical team with the knowledge and skills they need to build, maintain, and defend secure systems.
-              </p>
-              <p className="text-lg text-gray-700 mb-6">
-                
+                Our cybersecurity training programs are designed to equip your technical team with the knowledge and
+                skills they need to build, maintain, and defend secure systems.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
@@ -127,7 +113,7 @@ We use both tools and hands-on methods to check for common threats, including th
                       </div>
                       <div>
                         <h3 className="font-semibold mb-1">Basics of Cybersecurity</h3>
-                        <p className="text-sm text-gray-600">For employes and engineers</p>
+                        <p className="text-sm text-gray-600">For employees and engineers</p>
                       </div>
                     </div>
                   </CardContent>
@@ -181,12 +167,7 @@ We use both tools and hands-on methods to check for common threats, including th
               </Button>
             </div>
             <div className="relative h-[400px]">
-              <Image
-                src="/train.jpeg"
-                alt="Cybersecurity Training"
-                fill
-                className="object-cover rounded-lg"
-              />
+              <Image src="/train.jpeg" alt="Cybersecurity Training" fill className="object-cover rounded-lg" />
             </div>
           </div>
         </div>
@@ -373,7 +354,7 @@ We use both tools and hands-on methods to check for common threats, including th
         </div>
       </section>
       
-      {/* Courses Section */}
+       {/* Courses Section */}
       <section id="courses" className="py-16 bg-blue-50">
         <div className="container">
           <div className="grid gap-12 md:grid-cols-2 items-center">
@@ -383,8 +364,9 @@ We use both tools and hands-on methods to check for common threats, including th
               </div>
               <h2 className="text-3xl font-bold mb-6">Cybersecurity Courses</h2>
               <p className="text-lg text-gray-700 mb-4">
-                We provide industry-focused cybersecurity courses to help students, professionals, and business owners upskill 
-                themselves. Our courses are designed with real-world case studies, practical labs, and certifications.
+                We provide industry-focused cybersecurity courses to help students, professionals, and business owners
+                upskill themselves. Our courses are designed with real-world case studies, practical labs, and
+                certifications.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
@@ -425,35 +407,31 @@ We use both tools and hands-on methods to check for common threats, including th
                 </Card>
 
                 <Card>
-  <CardContent className="p-4">
-    <div className="flex items-start gap-3">
-      <FileText className="h-6 w-6 text-primary mt-0.5" />
-      <div>
-        <h3 className="font-semibold mb-1">Mentoring Support</h3>
-        <p className="text-sm text-gray-600">
-          Get one-on-one guidance from cybersecurity experts to boost your skills and career growth.
-        </p>
-      </div>
-    </div>
-  </CardContent>
-</Card>
-
+                  <CardContent className="p-4">
+                    <div className="flex items-start gap-3">
+                      <FileText className="h-6 w-6 text-primary mt-0.5" />
+                      <div>
+                        <h3 className="font-semibold mb-1">Mentoring Support</h3>
+                        <p className="text-sm text-gray-600">
+                          Get one-on-one guidance from cybersecurity experts to boost your skills and career growth.
+                        </p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
 
               <Button asChild>
-                <Link href="/contact">Contact Now </Link>
+                <Link href="/contact">Contact Now</Link>
               </Button>
             </div>
             <div className="relative h-[400px]">
-              <Image
-                src="/C5.GIF"
-                alt="Cybersecurity Courses"
-                fill
-                className="object-cover rounded-lg"
-              />
+              <Image src="/C5.GIF" alt="Cybersecurity Courses" fill className="object-cover rounded-lg" />
             </div>
           </div>
         </div>
       </section>
+
       
       {/* Service Process */}
       <section className="py-16 bg-blue-50">

@@ -21,7 +21,7 @@ export default function VisionPage() {
         <div className="container">
           <div className="grid gap-12 md:grid-cols-2 items-center">
             <div className="relative h-[400px]">
-              <Image src="/vision.jpg" alt="StarInfoSec Vision" fill className="object-cover rounded-lg" />
+              <Image src="/vision.gif" alt="StarInfoSec Vision" fill className="object-cover rounded-lg" />
             </div>
             <div>
               <h2 className="text-3xl font-bold mb-6">Our Vision Statement</h2>

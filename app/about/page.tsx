@@ -39,7 +39,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="relative h-[400px]">
-              <Image src="/about.jpg" alt="StarInfoSec Team" fill className="object-cover rounded-lg" />
+              <Image src="/team.gif" alt="StarInfoSec Team" fill className="object-cover rounded-lg" />
             </div>
           </div>
         </div>

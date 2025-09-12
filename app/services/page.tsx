@@ -299,7 +299,7 @@ export default function ServicesPage() {
 
 
 {/* Internship Section */}
-      <section id="internship" className="py-16" bg-blue-50" >
+      <section id="internship" className="py-16 bg-blue-50" >
         <div className="container">
           <div className="grid gap-12 md:grid-cols-2 items-center">
             <div className="relative h-[400px] order-last md:order-first">

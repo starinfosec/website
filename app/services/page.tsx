@@ -315,87 +315,9 @@ We use both tools and hands-on methods to check for common threats, including th
           </div>
         </div>
       </section>
-      {/* Courses Section */}
-      <section id="courses" className="py-16 bg-blue-50">
-        <div className="container">
-          <div className="grid gap-12 md:grid-cols-2 items-center">
-            <div>
-              <div className="inline-block bg-primary/10 text-primary font-medium rounded-full px-4 py-1 text-sm mb-4">
-                Learn & Grow
-              </div>
-              <h2 className="text-3xl font-bold mb-6">Cybersecurity Courses</h2>
-              <p className="text-lg text-gray-700 mb-4">
-                We provide industry-focused cybersecurity courses to help students, professionals, and business owners upskill 
-                themselves. Our courses are designed with real-world case studies, practical labs, and certifications.
-              </p>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
-                <Card>
-                  <CardContent className="p-4">
-                    <div className="flex items-start gap-3">
-                      <GraduationCap className="h-6 w-6 text-primary mt-0.5" />
-                      <div>
-                        <h3 className="font-semibold mb-1">Beginner Cybersecurity</h3>
-                        <p className="text-sm text-gray-600">Learn fundamentals of online safety & security.</p>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
 
-                <Card>
-                  <CardContent className="p-4">
-                    <div className="flex items-start gap-3">
-                      <Shield className="h-6 w-6 text-primary mt-0.5" />
-                      <div>
-                        <h3 className="font-semibold mb-1">Ethical Hacking</h3>
-                        <p className="text-sm text-gray-600">Hands-on labs covering real-world attack vectors.</p>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-
-                <Card>
-                  <CardContent className="p-4">
-                    <div className="flex items-start gap-3">
-                      <Globe className="h-6 w-6 text-primary mt-0.5" />
-                      <div>
-                        <h3 className="font-semibold mb-1">Web App Security</h3>
-                        <p className="text-sm text-gray-600">OWASP Top 10, API Security, Cloud Security.</p>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-
-                <Card>
-                  <CardContent className="p-4">
-                    <div className="flex items-start gap-3">
-                      <FileText className="h-6 w-6 text-primary mt-0.5" />
-                      <div>
-                        <h3 className="font-semibold mb-1">Certification Prep</h3>
-                        <p className="text-sm text-gray-600">Get ready for CEH, CompTIA Security+, CISSP.</p>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-              </div>
-
-              <Button asChild>
-                <Link href="/contact">Explore Courses</Link>
-              </Button>
-            </div>
-            <div className="relative h-[400px]">
-              <Image
-                src="/C5.GIF"
-                alt="Cybersecurity Courses"
-                fill
-                className="object-cover rounded-lg"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Internship Section */}
+{/* Internship Section */}
       <section id="internship" className="py-16">
         <div className="container">
           <div className="grid gap-12 md:grid-cols-2 items-center">
@@ -450,7 +372,89 @@ We use both tools and hands-on methods to check for common threats, including th
           </div>
         </div>
       </section>
+      
+      {/* Courses Section */}
+      <section id="courses" className="py-16 bg-blue-50">
+        <div className="container">
+          <div className="grid gap-12 md:grid-cols-2 items-center">
+            <div>
+              <div className="inline-block bg-primary/10 text-primary font-medium rounded-full px-4 py-1 text-sm mb-4">
+                Learn & Grow
+              </div>
+              <h2 className="text-3xl font-bold mb-6">Cybersecurity Courses</h2>
+              <p className="text-lg text-gray-700 mb-4">
+                We provide industry-focused cybersecurity courses to help students, professionals, and business owners upskill 
+                themselves. Our courses are designed with real-world case studies, practical labs, and certifications.
+              </p>
 
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+                <Card>
+                  <CardContent className="p-4">
+                    <div className="flex items-start gap-3">
+                      <GraduationCap className="h-6 w-6 text-primary mt-0.5" />
+                      <div>
+                        <h3 className="font-semibold mb-1">Beginner Cybersecurity</h3>
+                        <p className="text-sm text-gray-600">Learn fundamentals of online safety & security.</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardContent className="p-4">
+                    <div className="flex items-start gap-3">
+                      <Shield className="h-6 w-6 text-primary mt-0.5" />
+                      <div>
+                        <h3 className="font-semibold mb-1">Ethical Hacking</h3>
+                        <p className="text-sm text-gray-600">Hands-on labs covering real-world attack vectors.</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardContent className="p-4">
+                    <div className="flex items-start gap-3">
+                      <Globe className="h-6 w-6 text-primary mt-0.5" />
+                      <div>
+                        <h3 className="font-semibold mb-1">Web App Security</h3>
+                        <p className="text-sm text-gray-600">OWASP Top 10, API Security, Cloud Security.</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card>
+  <CardContent className="p-4">
+    <div className="flex items-start gap-3">
+      <FileText className="h-6 w-6 text-primary mt-0.5" />
+      <div>
+        <h3 className="font-semibold mb-1">Mentoring Support</h3>
+        <p className="text-sm text-gray-600">
+          Get one-on-one guidance from cybersecurity experts to boost your skills and career growth.
+        </p>
+      </div>
+    </div>
+  </CardContent>
+</Card>
+
+
+              <Button asChild>
+                <Link href="/contact">Contact Now </Link>
+              </Button>
+            </div>
+            <div className="relative h-[400px]">
+              <Image
+                src="/C5.GIF"
+                alt="Cybersecurity Courses"
+                fill
+                className="object-cover rounded-lg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      
       {/* Service Process */}
       <section className="py-16 bg-blue-50">
         <div className="container">

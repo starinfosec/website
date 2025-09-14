@@ -25,7 +25,7 @@ export default function MissionPage() {
             <div>
               <h2 className="text-3xl font-bold mb-6">Our Mission Statement</h2>
               <p className="text-lg text-gray-700 mb-4">
-                StarInfoSec's mission is to make top-level cybersecurity accessible to small businesses and startups—offering protection that was once only available to large enterprises. We deliver comprehensive, easy-to-use solutions that meet the unique needs of growing businesses in today’s complex threat landscape. Through our penetration testing, training, and consulting services, we not only help identify and fix vulnerabilities but also empower our clients with the knowledge and tools to build a strong, lasting security culture.
+                Protect startups and businesses with budget-friendly security.
               </p>
               <p className="text-lg text-gray-700 mb-4">
                 
@@ -56,9 +56,9 @@ export default function MissionPage() {
               <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                 <Shield className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Protect</h3>
+              <h3 className="text-xl font-semibold mb-3">Protecting business data, reputation, and customer trust.</h3>
               <p className="text-gray-600">
-                Find and fix security weaknesses before attackers can exploit them, protecting our clients' data, reputation, and customer trust.
+                
               </p>
             </div>
 
@@ -66,9 +66,9 @@ export default function MissionPage() {
               <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                 <Lightbulb className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Educate</h3>
+              <h3 className="text-xl font-semibold mb-3">Educating businesses to spot and prevent security threats.</h3>
               <p className="text-gray-600">
-                Give organizations the knowledge and skills to spot security threats and follow best practices, building a strong culture of security awareness across all levels.
+                
               </p>
             </div>
 
@@ -76,9 +76,9 @@ export default function MissionPage() {
               <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                 <Target className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Innovate</h3>
+              <h3 className="text-xl font-semibold mb-3">Innovating to keep clients safe from cyber risks.</h3>
               <p className="text-gray-600">
-                Keep improving our methods and tools to tackle new threats, so our clients stay protected now and in the future.
+                
               </p>
             </div>
 
@@ -86,10 +86,9 @@ export default function MissionPage() {
               <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                 <Users className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Collaborate</h3>
+              <h3 className="text-xl font-semibold mb-3">Collaborating with clients as trusted cybersecurity partners.</h3>
               <p className="text-gray-600">
-                Work closely with our clients as trusted security partners, understanding their unique business needs
-                and tailoring our solutions to align with their goals and constraints.
+                
               </p>
             </div>
           </div>
@@ -108,10 +107,9 @@ export default function MissionPage() {
 
           <div className="grid gap-8 md:grid-cols-2">
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-4 text-primary">Comprehensive Security Testing</h3>
+              <h3 className="text-xl font-semibold mb-4 text-primary">In-depth penetration testing with industry-standard tools.</h3>
               <p className="text-gray-700 mb-4">
-                We conduct thorough penetration tests that go beyond automated scanning, using a combination of
-                industry-standard tools and custom methodologies to identify vulnerabilities that others might miss.
+              
               </p>
               <ul className="space-y-2">
                 <li className="flex items-start gap-2">
@@ -136,16 +134,15 @@ export default function MissionPage() {
                   <span className="h-5 w-5 rounded-full bg-primary/10 flex items-center justify-center shrink-0 mt-0.5">
                     <span className="text-primary text-xs">✓</span>
                   </span>
-                  <span className="text-gray-700">Cloud infrastructure security reviews</span>
+                  <span className="text-gray-700">AI/LLM Pentesting</span>
                 </li>
               </ul>
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-4 text-primary">Customized Security Training</h3>
+              <h3 className="text-xl font-semibold mb-4 text-primary">Making cybersecurity training simple for all employees.</h3>
               <p className="text-gray-700 mb-4">
-                We develop and deliver customized training programs that address the specific security challenges faced
-                by small businesses, making complex security concepts accessible to technical and non-technical staff
+                
                 alike.
               </p>
               <ul className="space-y-2">
@@ -177,10 +174,9 @@ export default function MissionPage() {
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-4 text-primary">Strategic Security Consulting</h3>
+              <h3 className="text-xl font-semibold mb-4 text-primary">Professional consulting for effective security planning.</h3>
               <p className="text-gray-700 mb-4">
-                We provide expert guidance on developing and implementing security strategies that align with business
-                objectives, helping our clients make informed decisions about security investments.
+                
               </p>
               <ul className="space-y-2">
                 <li className="flex items-start gap-2">
@@ -211,10 +207,9 @@ export default function MissionPage() {
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-4 text-primary">Ongoing Security Support</h3>
+              <h3 className="text-xl font-semibold mb-4 text-primary">Helping businesses stay secure with continuous support.</h3>
               <p className="text-gray-700 mb-4">
-                We maintain long-term relationships with our clients, providing continuous support and guidance as their
-                security needs evolve with their business growth.
+                
               </p>
               <ul className="space-y-2">
                 <li className="flex items-start gap-2">

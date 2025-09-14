@@ -26,7 +26,7 @@ export default function VisionPage() {
             <div>
               <h2 className="text-3xl font-bold mb-6">Our Vision Statement</h2>
               <p className="text-lg text-gray-700 mb-4">
-                At StarInfoSec, we envision a world where all businesses can operate confidently, without fear of cyber threats. We lead in cybersecurity innovation, offering accessible solutions that empower small businesses. Our goal is to make strong security a standard for every business, not just large enterprises.
+                Protecting every business from evolving cyber threats.
               </p>
               <p className="text-lg text-gray-700 mb-4">
                 
@@ -54,9 +54,9 @@ export default function VisionPage() {
               <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                 <Eye className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Democratizing Cybersecurity</h3>
+              <h3 className="text-xl font-semibold mb-3">Cybersecurity solutions accessible to all businesses.</h3>
               <p className="text-gray-600 mb-4">
-                We believe cybersecurity should be accessible to all businesses. Our goal is to deliver affordable, scalable solutions with top-level protection. By sharing cybersecurity expertise, we help small businesses compete safely in the digital world.
+                
 
 
 
@@ -70,9 +70,9 @@ export default function VisionPage() {
               <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                 <Target className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Proactive Security Culture</h3>
+              <h3 className="text-xl font-semibold mb-3">Embedding cybersecurity into everyday business practices.</h3>
               <p className="text-gray-600 mb-4">
-                We see cybersecurity as a key part of business culture, not just a technical issue. Through training and consulting, we promote a proactive security mindset at all levels. By building security awareness into the core of organizations, we help them stay resilient against evolving threats.
+                
               </p>
               <p className="text-gray-600">
                 
@@ -83,9 +83,9 @@ export default function VisionPage() {
               <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                 <TrendingUp className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Continuous Innovation</h3>
+              <h3 className="text-xl font-semibold mb-3">Staying ahead with continuous security innovation.</h3>
               <p className="text-gray-600 mb-4">
-                Cybersecurity is always changing, with new threats emerging daily. We stay at the forefront of research and technology, constantly improving our methods to tackle the latest risks. By investing in innovation, we protect our clients against both current and future threats.
+                
               </p>
               <p className="text-gray-600">
                 
@@ -96,9 +96,9 @@ export default function VisionPage() {
               <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                 <Globe className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Global Impact</h3>
+              <h3 className="text-xl font-semibold mb-3">Creating global impact with stronger cybersecurity.</h3>
               <p className="text-gray-600 mb-4">
-               While we serve small businesses and startups, our vision is global. Through research, open-source tools, and knowledge sharing, we aim to strengthen the wider security community and help create a safer digital world for all.
+               
               </p>
               <p className="text-gray-600">
                 
@@ -128,8 +128,7 @@ export default function VisionPage() {
                       <span className="text-primary font-semibold">1</span>
                     </div>
                     <p className="text-gray-700">
-                      Expand our automated security assessment tools to make preliminary vulnerability scanning
-                      accessible to even the smallest businesses.
+                      Making security assessments easy and affordable.
                     </p>
                   </li>
                   <li className="flex items-start gap-3">
@@ -137,8 +136,7 @@ export default function VisionPage() {
                       <span className="text-primary font-semibold">2</span>
                     </div>
                     <p className="text-gray-700">
-                      Develop comprehensive security training programs tailored specifically for non-technical employees
-                      in small business environments.
+                      Simple security awareness programs for employees.
                     </p>
                   </li>
                   <li className="flex items-start gap-3">
@@ -146,8 +144,7 @@ export default function VisionPage() {
                       <span className="text-primary font-semibold">3</span>
                     </div>
                     <p className="text-gray-700">
-                      Establish partnerships with small business associations to promote cybersecurity awareness and
-                      best practices.
+                      Collaborating with businesses for better cybersecurity.
                     </p>
                   </li>
                 </ul>
@@ -161,8 +158,7 @@ export default function VisionPage() {
                       <span className="text-primary font-semibold">1</span>
                     </div>
                     <p className="text-gray-700">
-                      Create an AI-driven security platform that provides real-time threat detection and response
-                      capabilities for small businesses.
+                      Automated AI security for growing businesses.
                     </p>
                   </li>
                   <li className="flex items-start gap-3">
@@ -170,8 +166,7 @@ export default function VisionPage() {
                       <span className="text-primary font-semibold">2</span>
                     </div>
                     <p className="text-gray-700">
-                      Establish a global network of security professionals dedicated to supporting small businesses in
-                      underserved markets.
+                     Worldwide cybersecurity support for businesses.
                     </p>
                   </li>
                   <li className="flex items-start gap-3">
@@ -179,8 +174,7 @@ export default function VisionPage() {
                       <span className="text-primary font-semibold">3</span>
                     </div>
                     <p className="text-gray-700">
-                      Contribute to the development of simplified security standards and frameworks specifically
-                      designed for small business implementation.
+                      Developing easy security frameworks for small companies.
                     </p>
                   </li>
                 </ul>

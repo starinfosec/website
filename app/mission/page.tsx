@@ -143,7 +143,6 @@ export default function MissionPage() {
               <h3 className="text-xl font-semibold mb-4 text-primary">Making cybersecurity training simple for all employees.</h3>
               <p className="text-gray-700 mb-4">
                 
-                alike.
               </p>
               <ul className="space-y-2">
                 <li className="flex items-start gap-2">

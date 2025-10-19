@@ -30,12 +30,12 @@ export default function ServicesPage() {
     },
     {
       title: "Cybersecurity Internship",
-      desc: "Join our hands-on cybersecurity internship to gain real-world experience, work on live projects, collaborate with mentors, and receive certification and career guidance.",
+      desc: "Join our hands-on cybersecurity internship to gain real-world experience, work on projects, collaborate with mentor, and receive certification and career guidance.",
       imageSrc: "/i.GIF",
     },
     {
       title: "Cybersecurity Courses",
-      desc: "We offer practical cybersecurity courses for students, professionals, and business owners, covering beginner security, ethical hacking, web app security, and mentoring support with hands-on labs and certifications.",
+      desc: "We offer practical cybersecurity courses for students, professionals, and business owners, covering beginner security, ethical hacking, web app security, and mentoring.",
       imageSrc: "/C5.GIF",
     },
   ]

@@ -1,0 +1,224 @@
+{
+  "placeholderImages": [
+    {
+      "id": "blog-1",
+      "description": "Abstract image representing a ransomware attack with a skull and crossbones on a computer screen.",
+      "imageUrl": "https://i.ibb.co/Pstbg3q4/blog-1.png"
+    },
+    {
+      "id": "blog-2",
+      "description": "A computer screen with code and a lock icon, representing cybersecurity.",
+      "imageUrl": "https://i.ibb.co/mFPXCp5j/blog-2.png"
+    },
+    {
+      "id": "blog-3",
+      "description": "Representation of a data breach with flowing digital data and a broken shield.",
+      "imageUrl": "https://i.ibb.co/27NnLJMh/blog-3.png"
+    },
+    {
+      "id": "blog-4",
+      "description": "Image representing a phishing scam with email icons and fishing hooks.",
+      "imageUrl": "https://i.ibb.co/3m1CfwvS/blog-4.png"
+    },
+    {
+      "id": "blog-5",
+      "description": "A person working on a laptop with security icons and a shadowy figure behind them.",
+      "imageUrl": "https://i.ibb.co/S7V8pW02/blog-5.png"
+    },
+    {
+      "id": "blog-6",
+      "description": "A secure remote work setup with a VPN icon and encrypted data streams.",
+      "imageUrl": "https://i.ibb.co/3xLYmyM/blog-6.png"
+    },
+    {
+      "id": "blog-7",
+      "description": "Image of a server room with a security audit in progress, showing data charts and graphs.",
+      "imageUrl": "https://i.ibb.co/mFSPsYGN/blog-7.png"
+    },
+    {
+      "id": "github-integration",
+      "description": "Commitment to security background",
+      "imageUrl": "https://i.ibb.co/Ng5zxp8t/Commitment-to-security.png"
+    },
+    {
+      "id": "portfolio-1",
+      "description": "Project Alpha",
+      "imageUrl": "https://i.ibb.co/1tBHxyf8/portfolio-1.png"
+    },
+    {
+      "id": "portfolio-2",
+      "description": "Mobile App Beta",
+      "imageUrl": "https://i.ibb.co/JRsT7z1n/portfolio-2.png"
+    },
+    {
+      "id": "portfolio-3",
+      "description": "E-commerce Gamma",
+      "imageUrl": "https://i.ibb.co/MkvvQ2SH/portfolio-3.png"
+    },
+    {
+      "id": "portfolio-4",
+      "description": "SaaS Platform Delta",
+      "imageUrl": "https://i.ibb.co/23sXn1rR/portfolio-4.png"
+    },
+    {
+      "id": "portfolio-5",
+      "description": "Corporate Website Epsilon",
+      "imageUrl": "https://i.ibb.co/bMzXhDvx/portfolio-5.png"
+    },
+    {
+      "id": "portfolio-6",
+      "description": "Internal Tool Zeta",
+      "imageUrl": "https://i.ibb.co/jP14fJL2/portfolio-6.png"
+    },
+    {
+      "id": "avatar-1",
+      "description": "Portrait of Sarah Johnson",
+      "imageUrl": "https://picsum.photos/seed/avatar1/100/100"
+    },
+    {
+      "id": "avatar-2",
+      "description": "Portrait of Michael Chen",
+      "imageUrl": "https://picsum.photos/seed/avatar2/100/100"
+    },
+    {
+      "id": "avatar-3",
+      "description": "Portrait of Emily Rodriguez",
+      "imageUrl": "https://picsum.photos/seed/avatar3/100/100"
+    },
+    {
+      "id": "avatar-4",
+      "description": "Portrait of David Lee",
+      "imageUrl": "https://picsum.photos/seed/avatar4/100/100"
+    },
+    {
+      "id": "partner-1",
+      "description": "Mic Mitr logo",
+      "imageUrl": "https://i.ibb.co/TxqfNBJZ/partner-1.png"
+    },
+    {
+      "id": "partner-2",
+      "description": "Tech Solutions logo",
+      "imageUrl": "https://i.ibb.co/gMY4Nxmv/partner-2.png"
+    },
+    {
+      "id": "partner-3",
+      "description": "Creative Co. logo",
+      "imageUrl": "https://picsum.photos/seed/partner3/200/100"
+    },
+    {
+      "id": "partner-4",
+      "description": "Startup XYZ logo",
+      "imageUrl": "https://picsum.photos/seed/partner4/200/100"
+    },
+    {
+      "id": "partner-5",
+      "description": "Global Corp logo",
+      "imageUrl": "https://picsum.photos/seed/partner5/200/100"
+    },
+    {
+      "id": "partner-6",
+      "description": "Data Insights logo",
+      "imageUrl": "https://picsum.photos/seed/partner6/200/100"
+    },
+    {
+      "id": "partner-7",
+      "description": "NextGen Ventures logo",
+      "imageUrl": "https://picsum.photos/seed/partner7/200/100"
+    },
+    {
+      "id": "partner-8",
+      "description": "Quantum Leap logo",
+      "imageUrl": "https://picsum.photos/seed/partner8/200/100"
+    },
+    {
+      "id": "service-cybersecurity-consultation",
+      "description": "Cybersecurity Consultation service image",
+      "imageUrl": "https://i.ibb.co/HDt0L0d8/consultancy.png"
+    },
+    {
+      "id": "service-employee-training",
+      "description": "Employee Security Awareness Training service image",
+      "imageUrl": "https://i.ibb.co/205MWkBF/awareness-training.png"
+    },
+    {
+      "id": "service-website-hardening",
+      "description": "Website Security & Hardening service image",
+      "imageUrl": "https://i.ibb.co/q3LZsXVq/websecurity.png"
+    },
+    {
+      "id": "service-cybersecurity-workshops",
+      "description": "Cybersecurity Training & Workshops service image",
+      "imageUrl": "https://i.ibb.co/XrbBQj6q/training.png"
+    },
+    {
+      "id": "service-internship-courses",
+      "description": "Cybersecurity Internship + Courses service image",
+      "imageUrl": "https://i.ibb.co/kVHZGz2C/intrenship.png"
+    },
+    {
+      "id": "hero-background",
+      "description": "Custom high-tech cybersecurity background",
+      "imageUrl": "/background.jpg"
+    },
+    {
+      "id": "cta-background",
+      "description": "Abstract security background for call to action",
+      "imageUrl": "https://i.ibb.co/PGW9ksKb/hero-background.png"
+    },
+    {
+      "id": "guide-1",
+      "description": "SMB Cybersecurity Checklist",
+      "imageUrl": "https://i.ibb.co/Fkm3Fnmg/guide-1.png"
+    },
+    {
+      "id": "guide-2",
+      "description": "Incident Response Planning",
+      "imageUrl": "https://i.ibb.co/8n9dSWHN/guide-2.png"
+    },
+    {
+      "id": "guide-3",
+      "description": "Secure Remote Work Guide",
+      "imageUrl": "https://i.ibb.co/gLwNg4pr/guide-3.png"
+    },
+    {
+      "id": "case-study-1",
+      "description": "Preventing a Ransomware Attack at a Financial Firm",
+      "imageUrl": "https://i.ibb.co/TBzFLmBB/case-study-1.png"
+    },
+    {
+      "id": "case-study-2",
+      "description": "Securing a Healthcare Provider's Patient Data",
+      "imageUrl": "https://i.ibb.co/zHrFh3SY/case-study-2.png"
+    },
+    {
+      "id": "case-study-3",
+      "description": "E-commerce Breach Recovery and Fortification",
+      "imageUrl": "https://i.ibb.co/PvZ01R2g/case-study-3.png"
+    },
+    {
+      "id": "penetration-testing-image",
+      "description": "A diagram illustrating the penetration testing process.",
+      "imageUrl": "https://i.ibb.co/RTCdq7mN/pentesting.png"
+    },
+    {
+      "id": "methodologies-image",
+      "description": "An image representing testing methodologies",
+      "imageUrl": "https://i.ibb.co/zhS9B34p/testing-methods.png"
+    },
+    {
+      "id": "why-choose-us-1",
+      "description": "A team of cybersecurity experts collaborating",
+      "imageUrl": "https://i.ibb.co/DgRDGbvG/expert-team.png"
+    },
+    {
+      "id": "why-choose-us-2",
+      "description": "A digital shield protecting a network",
+      "imageUrl": "https://i.ibb.co/Rk64YBfD/proactive.jpg"
+    },
+    {
+      "id": "why-choose-us-3",
+      "description": "A consultant shaking hands with a client",
+      "imageUrl": "https://i.ibb.co/xqsMydnZ/client-centric.png"
+    }
+  ]
+}

@@ -219,6 +219,26 @@
       "id": "why-choose-us-3",
       "description": "A consultant shaking hands with a client",
       "imageUrl": "https://i.ibb.co/xqsMydnZ/client-centric.png"
+    },
+    {
+      "id": "domain-web-sec",
+      "description": "Web Security Internship Domain",
+      "imageUrl": "/domain-web-sec.png"
+    },
+    {
+      "id": "domain-mobile-sec",
+      "description": "Mobile Security Internship Domain",
+      "imageUrl": "/domain-mobile-sec.png"
+    },
+    {
+      "id": "domain-network-sec",
+      "description": "Network Security Internship Domain",
+      "imageUrl": "/domain-network-sec.png"
+    },
+    {
+      "id": "domain-ethical-hacking",
+      "description": "Ethical Hacking Internship Domain",
+      "imageUrl": "/domain-ethical-hacking.png"
     }
   ]
 }

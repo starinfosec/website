@@ -9,30 +9,30 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 const testimonials = [
   {
     id: "testimonial-1",
-    name: "Sarah Johnson",
-    title: "CEO, Innovate Inc.",
-    quote: "Working with this team was a game-changer for our business. Their expertise and dedication are unparalleled. The results exceeded all our expectations.",
+    name: "Rahul Sharma",
+    title: "IT Director, TechNova Solutions",
+    quote: "StarInfoSec transformed our corporate network security. Their Cybersecurity Consultation identified critical vulnerabilities we missed. The strategic roadmap they provided was practical and scalable.",
     avatarId: "avatar-1"
   },
   {
     id: "testimonial-2",
-    name: "Michael Chen",
-    title: "CTO, Tech Solutions",
-    quote: "The quality of their work is outstanding. They delivered a robust and scalable solution on time and on budget. I highly recommend them to anyone.",
+    name: "Priya Patel",
+    title: "HR Manager, FinServe India",
+    quote: "The Employee Security Awareness Training was exceptional. Our staff is now much more vigilant against phishing attacks, which has drastically reduced our internal security risks.",
     avatarId: "avatar-2"
   },
   {
     id: "testimonial-3",
-    name: "Emily Rodriguez",
-    title: "Marketing Director, Creative Co.",
-    quote: "Their creative vision and technical skills are a rare combination. They understood our brand and translated it into a beautiful, functional product.",
+    name: "Amit Desai",
+    title: "Founder, E-ShopKart",
+    quote: "After facing multiple DDoS attacks, we hired StarInfoSec for Website Security & Hardening. Since their intervention, our e-commerce platform has been incredibly stable and secure. Highly recommended!",
     avatarId: "avatar-3"
   },
    {
     id: "testimonial-4",
-    name: "David Lee",
-    title: "Founder, Startup XYZ",
-    quote: "As a startup, we needed a partner we could trust. They were flexible, responsive, and truly invested in our success. An amazing experience all around.",
+    name: "Neha Gupta",
+    title: "Lead Developer, CloudSynergy",
+    quote: "The Cybersecurity Workshops conducted by their experts were eye-opening for our dev team. We now integrate secure coding practices directly into our CI/CD pipelines thanks to their hands-on approach.",
     avatarId: "avatar-4"
   }
 ];

@@ -49,12 +49,15 @@ export default function CaseStudiesPage() {
                 return (
                   <Card key={study.id} className="group flex flex-col overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2 animate-in fade-in slide-in-from-bottom-8 duration-700" style={{ animationDelay: `${index * 200}ms`}}>
                     <Link href={`/case-studies/${study.slug}`} className="block">
-                      <div className="relative h-48 w-full overflow-hidden">
+                      <div className="relative w-full overflow-hidden">
                         {image && <Image
                           src={image.imageUrl}
                           alt={study.title}
-                          fill
-                          className="object-cover transition-transform duration-300 group-hover:scale-105"
+                          width={0}
+                          height={0}
+                          sizes="100vw"
+                          style={{ width: '100%', height: 'auto' }}
+                          className="transition-transform duration-300 group-hover:scale-105"
                         />}
                       </div>
                     </Link>

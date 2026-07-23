@@ -74,6 +74,14 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  async rewrites() {
+    return [
+      {
+        source: '/sitemap',
+        destination: '/site-map',
+      },
+    ];
+  },
   images: {
     remotePatterns: [
       {

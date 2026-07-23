@@ -21,11 +21,13 @@ const footerLinks = {
     { title: "Portfolio", href: "/portfolio" },
     { title: "Testimonials", href: "/testimonials" },
     { title: "Partners", href: "/partners" },
+    { title: "Industries", href: "/industries" },
   ],
   Company: [
     { title: "About", href: "/about" },
     { title: "Careers", href: "#" },
     { title: "Contact", href: "/contact" },
+    { title: "Sitemap", href: "/sitemap" },
   ],
 }
 

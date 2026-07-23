@@ -37,8 +37,8 @@ export default function RootLayout({
       <body className={cn("font-body antialiased")}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
-          enableSystem
+          defaultTheme="dark"
+          enableSystem={false}
           disableTransitionOnChange
         >
           <SplashScreen isLoading={isLoading} />

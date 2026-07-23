@@ -11,34 +11,81 @@ const caseStudiesContent: { [key: string]: { title: string, content: string } } 
   'preventing-ransomware-financial-firm': {
     title: 'Preventing a Ransomware Attack at a Financial Firm',
     content: `
-      <h2>The Challenge</h2>
-      <p>A mid-sized financial services firm with 150 employees was concerned about the increasing threat of ransomware. A successful attack would not only disrupt their operations but also severely damage their reputation and violate regulatory compliance.</p>
-      <h2>Our Solution</h2>
-      <p>We implemented a multi-layered defense strategy. This included advanced endpoint protection, network segmentation, and a robust email filtering system. Crucially, we conducted mandatory, engaging phishing simulation and awareness training for all employees.</p>
-      <h2>The Result</h2>
-      <p>Three months after our engagement, an employee received a sophisticated spear-phishing email containing a link to a ransomware payload. Citing their training, the employee recognized the red flags, did not click the link, and immediately reported the email to IT using the protocol we established. Our systems blocked the malicious domain, and an analysis confirmed we had thwarted a targeted ransomware attempt. The firm avoided millions in potential damages and downtime.</p>
+      <h2 class="animate-in fade-in slide-in-from-left duration-700 delay-100">The Challenge</h2>
+      <ul class="list-disc pl-6 space-y-3 mt-4 text-lg">
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-200">A mid-sized financial firm with 150 employees faced an increasing threat of ransomware.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-300">Operations were at high risk of disruption.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-400">Potential severe damage to reputation and violation of regulatory compliance.</li>
+      </ul>
+      
+      <h2 class="animate-in fade-in slide-in-from-left duration-700 delay-500 mt-8">Our Solution</h2>
+      <ul class="list-disc pl-6 space-y-3 mt-4 text-lg">
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[600ms]">Implemented a multi-layered defense strategy.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[700ms]">Deployed advanced endpoint protection and network segmentation.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[800ms]">Configured a robust email filtering system.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[900ms]">Conducted mandatory, engaging phishing simulation and awareness training for all employees.</li>
+      </ul>
+
+      <h2 class="animate-in fade-in slide-in-from-left duration-700 delay-[1000ms] mt-8">The Result</h2>
+      <ul class="list-disc pl-6 space-y-3 mt-4 text-lg">
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[1100ms]">An employee recognized a sophisticated spear-phishing ransomware payload thanks to our training.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[1200ms]">The malicious email was reported immediately using established protocols.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[1300ms]">Our systems successfully blocked the malicious domain.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[1400ms]">The firm avoided millions in potential damages and zero downtime.</li>
+      </ul>
     `
   },
   'securing-healthcare-data': {
     title: "Securing a Healthcare Provider's Patient Data",
     content: `
-      <h2>The Challenge</h2>
-      <p>A regional healthcare provider needed to ensure the security of their electronic health records (EHR) to comply with HIPAA regulations. Their existing infrastructure had several potential vulnerabilities and lacked comprehensive access controls.</p>
-      <h2>Our Solution</h2>
-      <p>Our team performed a thorough security assessment and penetration test, identifying critical vulnerabilities. We worked with their IT team to implement a zero-trust architecture, enforcing strict access controls based on the principle of least privilege. We also deployed a system for continuous monitoring and alerting for any unauthorized access attempts.</p>
-      <h2>The Result</h2>
-      <p>The healthcare provider successfully passed their HIPAA audit. Unauthorized access attempts dropped by 95%, and the provider had a clear, auditable trail of all access to patient data. This enhanced security posture not only ensured compliance but also increased patient trust.</p>
+      <h2 class="animate-in fade-in slide-in-from-left duration-700 delay-100">The Challenge</h2>
+      <ul class="list-disc pl-6 space-y-3 mt-4 text-lg">
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-200">A regional healthcare provider needed to secure electronic health records (EHR).</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-300">Mandatory HIPAA compliance was at risk.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-400">Existing infrastructure had several vulnerabilities and lacked access controls.</li>
+      </ul>
+      
+      <h2 class="animate-in fade-in slide-in-from-left duration-700 delay-500 mt-8">Our Solution</h2>
+      <ul class="list-disc pl-6 space-y-3 mt-4 text-lg">
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[600ms]">Performed a thorough security assessment and penetration test.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[700ms]">Identified and patched critical vulnerabilities in the network.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[800ms]">Implemented a zero-trust architecture with strict access controls.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[900ms]">Deployed continuous monitoring and alerting for unauthorized access attempts.</li>
+      </ul>
+
+      <h2 class="animate-in fade-in slide-in-from-left duration-700 delay-[1000ms] mt-8">The Result</h2>
+      <ul class="list-disc pl-6 space-y-3 mt-4 text-lg">
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[1100ms]">The healthcare provider successfully passed their HIPAA audit.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[1200ms]">Unauthorized access attempts dropped by a massive 95%.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[1300ms]">Established a clear, auditable trail of all access to patient data.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[1400ms]">Patient trust and overall security posture significantly increased.</li>
+      </ul>
     `
   },
   'ecommerce-breach-recovery': {
     title: 'E-commerce Breach Recovery and Fortification',
     content: `
-      <h2>The Challenge</h2>
-      <p>A popular online retailer suffered a data breach where customer names, addresses, and credit card information were compromised. They were facing significant financial losses, customer exodus, and brand damage.</p>
-      <h2>Our Solution</h2>
-      <p>Our incident response team was deployed immediately to contain the breach and eradicate the attacker's presence. We conducted a full forensic investigation to determine the root cause—an unpatched vulnerability in their e-commerce platform. Post-containment, we helped them rebuild their platform on a secure foundation, implement a Web Application Firewall (WAF), and establish a routine vulnerability management program.</p>
-      <h2>The Result</h2>
-      <p>While the initial breach was costly, our swift response and transparent communication strategy helped the retailer retain a significant portion of their customer base. The fortified platform has since resisted multiple attack attempts, and the company has rebuilt its reputation as a secure place to shop online.</p>
+      <h2 class="animate-in fade-in slide-in-from-left duration-700 delay-100">The Challenge</h2>
+      <ul class="list-disc pl-6 space-y-3 mt-4 text-lg">
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-200">A popular online retailer suffered a severe data breach.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-300">Customer names, addresses, and credit card info were compromised.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-400">Faced significant financial losses, customer exodus, and brand damage.</li>
+      </ul>
+      
+      <h2 class="animate-in fade-in slide-in-from-left duration-700 delay-500 mt-8">Our Solution</h2>
+      <ul class="list-disc pl-6 space-y-3 mt-4 text-lg">
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[600ms]">Deployed an incident response team immediately to contain the breach.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[700ms]">Conducted a full forensic investigation to find the unpatched vulnerability.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[800ms]">Rebuilt their platform on a secure foundation post-containment.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[900ms]">Implemented a Web Application Firewall (WAF) and routine vulnerability management.</li>
+      </ul>
+
+      <h2 class="animate-in fade-in slide-in-from-left duration-700 delay-[1000ms] mt-8">The Result</h2>
+      <ul class="list-disc pl-6 space-y-3 mt-4 text-lg">
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[1100ms]">Our swift response and transparent communication strategy retained a major portion of the customer base.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[1200ms]">The fortified platform successfully resisted multiple subsequent attack attempts.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[1300ms]">The company rebuilt its reputation as a highly secure place to shop online.</li>
+      </ul>
     `
   }
 };

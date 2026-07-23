@@ -1,3 +1,4 @@
+'use client';
 
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
@@ -6,9 +7,32 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
-import { Mail, Phone } from 'lucide-react';
+import { Mail, Phone, Loader2 } from 'lucide-react';
+import { useActionState, useEffect, useRef } from 'react';
+import { submitContactForm } from '@/app/actions/contact';
+import { useToast } from "@/hooks/use-toast";
 
 export default function ContactPage() {
+  const { toast } = useToast();
+  const [state, formAction, isPending] = useActionState(submitContactForm, null);
+  const formRef = useRef<HTMLFormElement>(null);
+
+  useEffect(() => {
+    if (state?.success) {
+      toast({
+        title: "Success!",
+        description: state.message,
+      });
+      formRef.current?.reset();
+    } else if (state?.error) {
+      toast({
+        title: "Error",
+        description: state.error,
+        variant: "destructive",
+      });
+    }
+  }, [state, toast]);
+
   return (
     <div className="flex min-h-screen flex-col bg-background text-foreground">
       <Header />
@@ -30,24 +54,33 @@ export default function ContactPage() {
                 <CardDescription>Fill out the form and we'll get back to you.</CardDescription>
               </CardHeader>
               <CardContent>
-                <form action="https://formspree.io/f/mgvkqegg" method="POST" className="space-y-6">
+                <form ref={formRef} action={formAction} className="space-y-6">
                   <div className="space-y-2">
                     <Label htmlFor="name">Name</Label>
-                    <Input id="name" name="name" placeholder="Enter your name" />
+                    <Input id="name" name="name" required placeholder="Enter your name" disabled={isPending} />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="email">Email</Label>
-                    <Input id="email" type="email" name="email" placeholder="Enter your email" />
+                    <Input id="email" type="email" name="email" required placeholder="Enter your email" disabled={isPending} />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="phone">Contact Number</Label>
-                    <Input id="phone" type="tel" name="phone" placeholder="Enter your contact number" />
+                    <Input id="phone" type="tel" name="phone" placeholder="Enter your contact number" disabled={isPending} />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="message">Message</Label>
-                    <Textarea id="message" name="message" placeholder="Enter your message" rows={5} />
+                    <Textarea id="message" name="message" required placeholder="Enter your message" rows={5} disabled={isPending} />
                   </div>
-                  <Button type="submit" className="w-full" size="lg">Send Message</Button>
+                  <Button type="submit" className="w-full" size="lg" disabled={isPending}>
+                    {isPending ? (
+                      <>
+                        <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                        Sending...
+                      </>
+                    ) : (
+                      "Send Message"
+                    )}
+                  </Button>
                 </form>
               </CardContent>
             </Card>

@@ -28,6 +28,7 @@ const footerLinks = {
     { title: "Careers", href: "#" },
     { title: "Contact", href: "/contact" },
     { title: "Sitemap", href: "/sitemap" },
+    { title: "Privacy Policy", href: "/privacy-policy" },
   ],
 }
 

@@ -113,22 +113,22 @@
     {
       "id": "partner-5",
       "description": "Global Corp logo",
-      "imageUrl": "https://picsum.photos/seed/partner5/200/100"
+      "imageUrl": "/partner-5.png"
     },
     {
       "id": "partner-6",
       "description": "Data Insights logo",
-      "imageUrl": "https://picsum.photos/seed/partner6/200/100"
+      "imageUrl": "/partner-6.png"
     },
     {
       "id": "partner-7",
       "description": "NextGen Ventures logo",
-      "imageUrl": "https://picsum.photos/seed/partner7/200/100"
+      "imageUrl": "/partner-7.png"
     },
     {
       "id": "partner-8",
       "description": "Quantum Leap logo",
-      "imageUrl": "https://picsum.photos/seed/partner8/200/100"
+      "imageUrl": "/partner-8.png"
     },
     {
       "id": "service-cybersecurity-consultation",

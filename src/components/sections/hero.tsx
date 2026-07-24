@@ -184,7 +184,7 @@ export function Hero() {
               <Link href="/contact">Contact Us</Link>
             </Button>
             <Button variant="outline" size="lg" asChild className="h-14 px-8 text-lg rounded-xl border-white/20 bg-white/10 text-white backdrop-blur-md hover:bg-white/20 transition-transform hover:scale-105">
-              <Link href="#" target="_blank" rel="noopener noreferrer">
+              <Link href=" https://g.page/r/Cd_k3aPVLlcyEBM/review" target="_blank" rel="noopener noreferrer">
                 <Star className="mr-2 h-5 w-5 text-yellow-400 fill-yellow-400" />
                 Google Reviews
               </Link>

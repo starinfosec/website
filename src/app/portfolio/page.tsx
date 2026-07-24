@@ -65,12 +65,15 @@ export default function PortfolioPage() {
                 return (
                   <Card key={item.id} className="group flex flex-col overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2 animate-in fade-in slide-in-from-bottom-8 duration-700" style={{ animationDelay: `${index * 150}ms` }}>
                     {image && (
-                      <div className="relative h-56 w-full overflow-hidden">
+                      <div className="w-full overflow-hidden">
                         <Image
                           src={image.imageUrl}
                           alt={item.title}
-                          fill
-                          className="object-cover transition-transform duration-300 group-hover:scale-105"
+                          width={0}
+                          height={0}
+                          sizes="100vw"
+                          style={{ width: '100%', height: 'auto' }}
+                          className="rounded-t-lg transition-transform duration-300 group-hover:scale-105"
                         />
                       </div>
                     )}

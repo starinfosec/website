@@ -196,6 +196,16 @@
       "imageUrl": "/case-study-3.png"
     },
     {
+      "id": "case-study-4",
+      "description": "Empowering Development Teams with Hands-On Workshops",
+      "imageUrl": "/training.png"
+    },
+    {
+      "id": "case-study-5",
+      "description": "Cultivating Next-Gen Talent via Internship Programs",
+      "imageUrl": "/intrenship.png"
+    },
+    {
       "id": "penetration-testing-image",
       "description": "A diagram illustrating the penetration testing process.",
       "imageUrl": "/pentesting.png"

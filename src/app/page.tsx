@@ -6,6 +6,8 @@ import { GitHubIntegration } from '@/components/sections/github-integration';
 import { BlogSection } from '@/components/sections/blog-section';
 import { CtaSection } from '@/components/sections/cta-section';
 import { TrustedPartners } from '@/components/sections/trusted-partners';
+import { WhyChooseUs } from '@/components/sections/why-choose-us';
+import { WhyCybersecurityImportant } from '@/components/sections/why-cybersecurity-important';
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <TrustedPartners />
+        <WhyCybersecurityImportant />
+        <WhyChooseUs />
         <FeatureHighlights />
         <GitHubIntegration />
         <BlogSection />

@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Menu, X, ChevronDown, Briefcase, Star, Handshake, Newspaper, BookOpen, Compass, FileCheck, Shield } from "lucide-react"
+import { Menu, X, ChevronDown, Briefcase, Star, Handshake, Newspaper, BookOpen, Compass, FileCheck, Shield, Users } from "lucide-react"
 import { useState, useEffect } from "react"
 import { Logo } from "@/components/logo"
 import { Button } from "@/components/ui/button"
@@ -29,8 +29,10 @@ const navLinks = [
 
 const companyLinks = [
   { href: "/about", label: "About", description: "Learn about our mission, vision, and values.", icon: Briefcase },
+  { href: "/careers", label: "Careers", description: "Join our team and help us secure the digital world.", icon: Users },
   { href: "/testimonials", label: "Testimonials", description: "See what our happy clients have to say.", icon: Star },
   { href: "/partners", label: "Partners", description: "Meet the industry leaders we collaborate with.", icon: Handshake },
+  { href: "/become-a-partner", label: "Become a Partner", description: "Grow your business by partnering with us.", icon: Briefcase },
   { href: "/privacy-policy", label: "Privacy Policy", description: "Read about how we protect your data.", icon: Shield },
 ];
 

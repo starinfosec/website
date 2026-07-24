@@ -25,6 +25,18 @@ const caseStudies = [
     title: "E-commerce Breach Recovery and Fortification",
     excerpt: "After a breach, a growing e-commerce brand partnered with us to recover, rebuild trust, and implement a robust security strategy.",
     slug: "ecommerce-breach-recovery"
+  },
+  {
+    id: "case-study-4",
+    title: "Empowering Development Teams with Hands-On Workshops",
+    excerpt: "Discover how our interactive cybersecurity workshops transformed a SaaS company's engineering team, drastically reducing vulnerabilities in their code.",
+    slug: "empowering-dev-teams-workshops"
+  },
+  {
+    id: "case-study-5",
+    title: "Cultivating Next-Gen Talent via Internship Programs",
+    excerpt: "An inside look at our robust Internship + Courses program and how it successfully bridged the cybersecurity skills gap for a regional enterprise.",
+    slug: "cultivating-next-gen-talent"
   }
 ];
 

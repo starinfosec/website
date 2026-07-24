@@ -87,6 +87,58 @@ const caseStudiesContent: { [key: string]: { title: string, content: string } } 
         <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[1300ms]">The company rebuilt its reputation as a highly secure place to shop online.</li>
       </ul>
     `
+  },
+  'empowering-dev-teams-workshops': {
+    title: 'Empowering Development Teams with Hands-On Workshops',
+    content: `
+      <h2 class="animate-in fade-in slide-in-from-left duration-700 delay-100">The Challenge</h2>
+      <ul class="list-disc pl-6 space-y-3 mt-4 text-lg">
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-200">A rapidly growing SaaS company struggled with recurring security vulnerabilities in their codebase.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-300">Their development team lacked hands-on experience with secure coding practices.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-400">Time-to-market was severely impacted by constant security re-work and QA delays.</li>
+      </ul>
+      
+      <h2 class="animate-in fade-in slide-in-from-left duration-700 delay-500 mt-8">Our Solution</h2>
+      <ul class="list-disc pl-6 space-y-3 mt-4 text-lg">
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[600ms]">Designed a series of intensive, interactive Cybersecurity Workshops tailored to their tech stack.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[700ms]">Simulated real-world attacks to demonstrate how vulnerabilities are exploited.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[800ms]">Provided hands-on labs where developers actively patched vulnerable applications.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[900ms]">Integrated automated security scanning directly into their CI/CD pipeline as part of the training.</li>
+      </ul>
+
+      <h2 class="animate-in fade-in slide-in-from-left duration-700 delay-[1000ms] mt-8">The Result</h2>
+      <ul class="list-disc pl-6 space-y-3 mt-4 text-lg">
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[1100ms]">Critical vulnerabilities introduced during development dropped by 80%.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[1200ms]">Development cycles sped up significantly as security QA failures became rare.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[1300ms]">The team fostered a "security-first" culture, proactively defending the product.</li>
+      </ul>
+    `
+  },
+  'cultivating-next-gen-talent': {
+    title: 'Cultivating Next-Gen Talent via Internship Programs',
+    content: `
+      <h2 class="animate-in fade-in slide-in-from-left duration-700 delay-100">The Challenge</h2>
+      <ul class="list-disc pl-6 space-y-3 mt-4 text-lg">
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-200">A large regional enterprise was facing a severe shortage of qualified cybersecurity talent.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-300">Junior hires lacked practical, hands-on experience with modern security infrastructure.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-400">Recruitment costs were skyrocketing while team expansion stagnated.</li>
+      </ul>
+      
+      <h2 class="animate-in fade-in slide-in-from-left duration-700 delay-500 mt-8">Our Solution</h2>
+      <ul class="list-disc pl-6 space-y-3 mt-4 text-lg">
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[600ms]">Launched a specialized "Internship + Courses" initiative customized to the enterprise's exact needs.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[700ms]">Sourced top university talent and put them through rigorous, practical training modules.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[800ms]">Mentored interns through simulated real-world cyber incidents (Red Team / Blue Team exercises).</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[900ms]">Graduated candidates directly into junior security analyst roles at the enterprise.</li>
+      </ul>
+
+      <h2 class="animate-in fade-in slide-in-from-left duration-700 delay-[1000ms] mt-8">The Result</h2>
+      <ul class="list-disc pl-6 space-y-3 mt-4 text-lg">
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[1100ms]">The enterprise successfully onboarded a cohort of highly capable, pre-trained security analysts.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[1200ms]">New hires became productive in weeks rather than months.</li>
+        <li class="animate-in fade-in slide-in-from-bottom duration-700 delay-[1300ms]">Significantly reduced external recruitment costs and closed the internal skills gap.</li>
+      </ul>
+    `
   }
 };
 
